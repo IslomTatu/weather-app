@@ -1,0 +1,10 @@
+.container{
+  margin: 3rem;
+  overflow: hidden;
+}
+
+@media only screen and (max-width: 1300px) {
+  .container {
+    margin: 1rem;
+  }
+}

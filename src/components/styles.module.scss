@@ -1,0 +1,43 @@
+.table{
+  border-radius: 5px;
+  background-color: #fff;
+  color: #0F0D08;
+  padding: 1rem;
+  width: 100%;
+  overflow-x: auto;
+}
+.title{
+  h1{
+    margin-top: 0;
+  }
+  span{
+    font-size: 1.1rem;
+    color: #828387;
+  }
+}
+
+.additional-info{
+  &-header{
+    display: grid;
+    grid-template-columns: 100px repeat(6, minmax(140px, 1fr));
+    align-items: center;
+  }
+  &-body{
+    display: grid;
+    grid-template-columns: 100px repeat(6, minmax(140px, 1fr));
+    border-top: 1px solid #82838762;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  &-item{
+    &-text{
+      color: #828387;
+      text-align: right;
+    }
+    &-value{
+      font-weight: 500;
+      text-align: right;
+    }
+  }
+}
+

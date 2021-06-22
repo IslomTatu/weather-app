@@ -1,0 +1,49 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(https://farm6.staticflickr.com/5613/14983886893_1175251846_b.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #F5F5F5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+*{
+  box-sizing: border-box;
+}
+
+.app{
+  margin: 1rem;
+}
+
+.loader{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f4f4f4;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: auto;
+  background-position: center center;
+
+}
+
+
+.vx-bar {
+  transition: height 150ms, y 150ms;
+}
+.vx-axis g,
+.vx-axis line {
+  stroke: #999;
+}
+
+.vx-axis text {
+  fill: #999;
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .app {
+    margin: 0;
+  }
+}

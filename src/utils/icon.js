@@ -1,0 +1,66 @@
+import api from '../api/api'
+
+export default {
+  // 2xx: Thunderstorm
+  200: time => api.iconUrl(`11${time}`),
+  201: time => api.iconUrl(`11${time}`),
+  202: time => api.iconUrl(`11${time}`),
+  210: time => api.iconUrl(`11${time}`),
+  211: time => api.iconUrl(`11${time}`),
+  212: time => api.iconUrl(`11${time}`),
+  221: time => api.iconUrl(`11${time}`),
+  230: time => api.iconUrl(`11${time}`),
+  231: time => api.iconUrl(`11${time}`),
+  232: time => api.iconUrl(`11${time}`),
+  // 3xx: Drizzle
+  300: time => api.iconUrl(`09${time}`),
+  301: time => api.iconUrl(`09${time}`),
+  302: time => api.iconUrl(`09${time}`),
+  310: time => api.iconUrl(`09${time}`),
+  311: time => api.iconUrl(`09${time}`),
+  312: time => api.iconUrl(`09${time}`),
+  313: time => api.iconUrl(`09${time}`),
+  314: time => api.iconUrl(`09${time}`),
+  321: time => api.iconUrl(`09${time}`),
+  // 5xx: Rain
+  500: time => api.iconUrl(`10${time}`),
+  501: time => api.iconUrl(`10${time}`),
+  502: time => api.iconUrl(`10${time}`),
+  503: time => api.iconUrl(`10${time}`),
+  504: time => api.iconUrl(`10${time}`),
+  511: time => api.iconUrl(`13${time}`),
+  520: time => api.iconUrl(`09${time}`),
+  521: time => api.iconUrl(`09${time}`),
+  522: time => api.iconUrl(`09${time}`),
+  531: time => api.iconUrl(`09${time}`),
+  // 6xx: Snow
+  600: time => api.iconUrl(`13${time}`),
+  601: time => api.iconUrl(`13${time}`),
+  602: time => api.iconUrl(`13${time}`),
+  611: time => api.iconUrl(`13${time}`),
+  612: time => api.iconUrl(`13${time}`),
+  613: time => api.iconUrl(`13${time}`),
+  615: time => api.iconUrl(`13${time}`),
+  616: time => api.iconUrl(`13${time}`),
+  620: time => api.iconUrl(`13${time}`),
+  621: time => api.iconUrl(`13${time}`),
+  622: time => api.iconUrl(`13${time}`),
+  // 7xx: Atmosphere
+  701: time => api.iconUrl(`50${time}`),
+  711: time => api.iconUrl(`50${time}`),
+  721: time => api.iconUrl(`50${time}`),
+  731: time => api.iconUrl(`50${time}`),
+  741: time => api.iconUrl(`50${time}`),
+  751: time => api.iconUrl(`50${time}`),
+  761: time => api.iconUrl(`50${time}`),
+  762: time => api.iconUrl(`50${time}`),
+  771: time => api.iconUrl(`50${time}`),
+  781: time => api.iconUrl(`50${time}`),
+  // 800: Clear
+  800: time => api.iconUrl(`01${time}`),
+  // 80x: Clouds
+  801: time => api.iconUrl(`02${time}`),
+  802: time => api.iconUrl(`03${time}`),
+  803: time => api.iconUrl(`04${time}`),
+  804: time => api.iconUrl(`04${time}`)
+}
